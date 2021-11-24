@@ -118,3 +118,14 @@ header
     min-width: 100%;
   }
 }
+.gift {
+  animation: bounce 2s infinite ease-in-out alternate;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
