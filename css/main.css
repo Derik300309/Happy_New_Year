@@ -82,6 +82,7 @@ header
   justify-content: center;
   font-size: 3em;
   font-family: 'Dancing Script', cursive;
+  z-index: 1000;
 }
 
 .gs_reveal {
@@ -128,6 +129,7 @@ svg {
   z-index: 999;
   transform: translateY(-40%);
 }
+
 @media(max-width: 600px)
 {
   header
